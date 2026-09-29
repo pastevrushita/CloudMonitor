@@ -172,3 +172,47 @@ The monitoring application runs inside a Docker container and continuously retri
 
 
 
+## 📸 Screenshots
+
+### EC2 CPU Monitoring
+
+The Dockerized Python application continuously monitors EC2 CPU utilization.
+
+<table>
+<tr>
+<td><img src="screenshots/cpu-monitoring.PNG" width="100%"></td>
+<td><img src="screenshots/cpum.PNG" width="100%"></td>
+</tr>
+</table>
+
+---
+
+### EC2 Instance
+
+The CloudMonitor application runs on an Ubuntu EC2 instance.
+
+![EC2 Instance](screenshots/ec2-instance.png)
+
+---
+
+### CPU Stress Test
+
+CPU load is generated to test the CloudWatch monitoring and alarm system.
+
+![CPU Stress Test](screenshots/cpu-stress-test.png)
+
+---
+
+### CloudWatch Alarm
+
+CloudWatch triggers an alarm when CPU utilization exceeds 70%.
+
+![CloudWatch Alarm](screenshots/cloudwatch-alarm.png)
+
+---
+
+### SNS Email Alert
+
+Amazon SNS sends an email notification when the CloudWatch alarm is triggered.
+
+![SNS Email Alert](screenshots/sns-email-alert.png)
